@@ -80,8 +80,6 @@ const Detail = ({ add }) => {
         return descriptiontext
     }
 
-
-
     return (
         <div>
             <h1 id="chosen_T-shirt_name">{name}</h1>

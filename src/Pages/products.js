@@ -4,7 +4,6 @@ import notFoundImg from "../assets/shirt_images/not-found.png";
 
 export function Products() {
 
-
     function seePageButton(shirt) {
         const seePage = (shirt.name === undefined) || (shirt.name === "") ?
             ["", "add_to_cart"] : [`/products/${shirt.name}`, "button_style"]

@@ -4,7 +4,7 @@ import AddToCart from "../AddToCart/AddToCart";
 
 export function Shopping({ shoppingdata, deleteshopping, cartNum, modifyData }) {
     var num = 0
-    var totalPrice = 0 //Math.round(price * num * 100) / 100
+    var totalPrice = 0
 
     shoppingdata.map((item) => {
         const { chosenQuantity, price } = item;
