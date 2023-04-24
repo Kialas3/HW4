@@ -1,0 +1,342 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.row {
+  display: flex;
+  margin: 5px;
+}
+
+.text_space {
+  margin: 5px;
+}
+
+.header {
+  border-top: 10px solid #c51230;
+  border-bottom: 2px solid grey;
+}
+
+.background_color {
+  background-color: #c51230;
+  width: 100%;
+}
+
+.upper {
+  height: 20px;
+}
+
+.nomargin {
+  margin: 0px;
+}
+
+.container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.shopping_style {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #ac2432;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bi-cart3 {
+  padding: 5px;
+  font-size: 15px;
+  color: rgb(210, 207, 207);
+}
+
+.bi-cart3:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+.h1_size {
+  font-size: 35px;
+}
+
+.number {
+  padding: 5px;
+  font-size: 30px;
+  color: white;
+}
+
+.headerMenu {
+  border-bottom: 2px solid gray;
+}
+
+.header_menu {
+  color: #c51230;
+  margin-top: 8px;
+  margin-bottom: 4px;
+  border-bottom: 3px solid white;
+}
+
+.header_menu:hover {
+  border-bottom-color: #c51230;
+  transition: 0.5s;
+}
+
+.hamburger1 {
+  display: none;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.hamburger2 {
+  display: none;
+  height: 40px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.bar1 {
+  display: flex;
+  width: 25px;
+  height: 3px;
+  margin: 3px auto;
+  background-color: #c51230;
+}
+
+.bar2 {
+  display: flex;
+  width: 25px;
+  height: 3px;
+  margin: 3px auto;
+  background-color: white;
+}
+
+.change .bar1:nth-child(1) {
+  transform: translate(0, 9px) rotate(-45deg);
+}
+
+.change .bar1:nth-child(2) {
+  opacity: 0;
+}
+
+.change .bar1:nth-child(3) {
+  transform: translate(0, -9px) rotate(45deg);
+}
+
+.change .bar2:nth-child(1) {
+  transform: translate(0, 9px) rotate(-45deg);
+}
+
+.change .bar2:nth-child(2) {
+  opacity: 0;
+}
+
+.change .bar2:nth-child(3) {
+  transform: translate(0, -9px) rotate(45deg);
+}
+
+.interesting_text {
+  border: 3px solid #c51230;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 400px;
+  height: auto;
+}
+
+.footer_word {
+  color: rgb(210, 207, 207);
+}
+
+.footer_word:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+.footer_name_word {
+  color: white;
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+  border: 3px solid white;
+  border-radius: 5px;
+}
+
+.logo:hover {
+  border-color: #ac2432;
+
+  transition: 0.5s;
+}
+
+.home_style {
+  height: auto;
+  max-width: 100%;
+}
+
+.button_style_a {
+  text-decoration: none;
+}
+
+.button_style {
+  color: rgb(210, 207, 207);
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #c51230;
+  background-color: #c51230;
+  display: inline;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button_style:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+.add_to_cart {
+  color: rgb(210, 207, 207);
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid gray;
+  background-color: gray;
+  display: inline;
+  border-radius: 5px;
+  cursor: default;
+}
+
+.picture {
+  border-radius: 10px;
+  max-width: 300px;
+  height: auto;
+}
+
+.T-shirt_style {
+  margin: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #c51230;
+  border-radius: 10px;
+  width: 300px;
+  max-height: auto;
+}
+
+.not_implemented_img {
+  max-height: 500px;
+  width: auto;
+  opacity: 0.5;
+}
+
+.imgLink {
+  cursor: default;
+}
+
+.not_implemented_text {
+  font-size: 30px;
+  opacity: 0.5;
+}
+
+.container_T-shirt {
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#create_T-shirt_list {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#chosen_T-shirt {
+  display: flex;
+}
+
+.img_T-shirt {
+  max-width: 400px;
+  height: auto;
+  max-height: 466px;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.detail_container {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.detial_button_style_a {
+  text-decoration: none;
+}
+
+.detial_button_style {
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #c51230;
+  background-color: #c51230;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.color_button_style {
+  color: black;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #c51230;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.color_button_style:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+.money_style {
+  font-size: 40px;
+}
+
+dialog {
+  border: none;
+  box-shadow: 0 2px 6px #ccc;
+  border-radius: 10px;
+  max-width: 750px;
+  max-height: 300px;
+}
+
+.dialog_style {
+  display: flex;
+}
+
+.dialog_img {
+  max-width: 200px;
+  height: auto;
+  margin: 10px;
+  border: 0;
+}
+
+
+.close_pos {
+  right: 10px;
+  top: 10px;
+  position: absolute;
+}
